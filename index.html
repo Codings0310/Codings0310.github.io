@@ -30,17 +30,16 @@
     </nav>
 
     <p>시간표 및 급식</p>
-    <br><table border="5" style="width: auto; height: auto; ">
+    <table border="5" >
         <tr>
             <th>시간표</th>
             <th>급식</th>
         </tr>
         <tr>
             <th>
-                <select style="width: 130px; " title="학년/반/이름을 선택해주세요" onchange="window.open(value,'_self');"
+                <select style="width: 130px;" title="학년/반/이름을 선택해주세요" onchange="window.open(value,'_self');"
                     name="schedule" id="schedule-select">
                     <option value="">학년/반/이름을 선택해주세요.</option>
-                    <option value="">이동이 안되면 저를 한 번 선택하여주세요!</option>
                     <optgroup label="1학년">
                         <option value="시간표\1-1 양진무\1-1.html" selected>1-1</option>
                         <option value="시간표\1-2 황준현\1-2.html" selected>1-2</option>
@@ -58,12 +57,9 @@
                         <option value="시간표\3-3 이임한\3-3.html" selected>3-3</option>
                         <option value="시간표\3-4 김준휘\3-4.html" selected>3-4</option>
                     </optgroup>
-                    <optgroup label="선생님">
-                        <option value="철원고\시간표\전은지.html" selected>전은지 선생님</option>
-                    </optgroup>
                 </select>
             </th>
-            <th><a href="/급식/lunch.html">중식 보러가기</a></th>
+            <th><a href="급식표\lunch.html">중식 보러가기</a></th>
         </tr>
     </table>
 </body>
