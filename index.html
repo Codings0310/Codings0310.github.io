@@ -24,13 +24,13 @@
     <!-- Image and text -->
     <nav class="navbar navbar-light bg-light">
         <a style="font-size:45px" class="navbar-brand" href="https://cheorwon.gwe.hs.kr/main.do">
-            <img src="이미지/메인 페이지/철고 로고.png" width="75" height="75" class="d-inline-block align-top" alt="">
+            <img src="이미지\철고 로고.png" width="75" height="75" class="d-inline-block align-top" alt="">
             철원고등학교 동아리 코딩들
         </a>
     </nav>
 
-    <p>시간표 및 급식</p>
-    <table border="5" >
+
+    <table border="5">
         <tr>
             <th>시간표</th>
             <th>급식</th>
@@ -39,23 +39,27 @@
             <th>
                 <select style="width: 130px;" title="학년/반/이름을 선택해주세요" onchange="window.open(value,'_self');"
                     name="schedule" id="schedule-select">
+                    <option value="">선택이 되지 않는다면 저를 선택했다가 다른 것을 선택해주세요!</option>
                     <option value="">학년/반/이름을 선택해주세요.</option>
                     <optgroup label="1학년">
-                        <option value="시간표\1-1 양진무\1-1.html" selected>1-1</option>
-                        <option value="시간표\1-2 황준현\1-2.html" selected>1-2</option>
-                        <option value="시간표\1-3 구희준\1-3.html" selected>1-3</option>
-                        <option value="시간표\1-4 김상우\1-4.html" selected>1-4</option>
+                        <option value="시간표\반\1-1 양진무\1-1.html" selected>1-1</option>
+                        <option value="시간표\반\1-2 황준현\1-2.html" selected>1-2</option>
+                        <option value="시간표\반\1-3 구희준\1-3.html" selected>1-3</option>
+                        <option value="시간표\반\1-4 김상우\1-4.html" selected>1-4</option>
                     </optgroup>
                     <optgroup label="2학년">
-                        <option value="시간표\2-1 고태준\2-1.html" selected>2-1</option>
-                        <option value="시간표\2-2 강현주\2-2.html" selected>2-2</option>
-                        <option value="시간표\2-3 김유찬\2-3.html" selected>2-3</option>
+                        <option value="시간표\반\2-1 고태준\2-1.html" selected>2-1</option>
+                        <option value="시간표\반\2-2 강현주\2-2.html" selected>2-2</option>
+                        <option value="시간표\반\2-3 김유찬\2-3.html" selected>2-3</option>
                     </optgroup>
                     <optgroup label="3학년">
-                        <option value="시간표\3-1 박태욱\3-1.html" selected>3-1</option>
-                        <option value="시간표\3-2 임성우\3-2.html" selected>3-2</option>
-                        <option value="시간표\3-3 이임한\3-3.html" selected>3-3</option>
-                        <option value="시간표\3-4 김준휘\3-4.html" selected>3-4</option>
+                        <option value="시간표\반\3-1 박태욱\3-1.html" selected>3-1</option>
+                        <option value="시간표\반\3-2 임성우\3-2.html" selected>3-2</option>
+                        <option value="시간표\반\3-3 이임한\3-3.html" selected>3-3</option>
+                        <option value="시간표\반\3-4 김준휘\3-4.html" selected>3-4</option>
+                    </optgroup>
+                    <optgroup label="선생님">
+                        <option value="시간표\선생님\전은지\전은지.html" selected>전은지 선생님</option>
                     </optgroup>
                 </select>
             </th>
