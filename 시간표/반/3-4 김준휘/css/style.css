@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 #container {
     margin: 0 auto;
@@ -12,21 +13,22 @@
 header {
     width: 100%;
     height: 100px;
-    background-color: blue;
+
 }
 
 #logo {
     float: left;
     width: 250px;
     height: 100px;
-    background-color: indigo;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    color: #B2BCFF;
 }
 
 nav {
     float: right;
     width: 900px;
     height: 100px;
-    background-color: green;
 }
 
 #slideShow {
@@ -62,3 +64,26 @@ footer {
     background-color: gray;
 }
 
+table {
+    font-family: 'Nanum Pen Script', cursive;
+    width: 30%;
+    background-image: url(../images/Cinema4D.jpg);
+    background-position: center;
+    text-align: center;
+    border-color: #54A0E2;
+    border-collapse: separate;
+    vertical-align: middle;
+}
+
+audio {
+    width: 418px;
+}
+
+body {
+    background-image: url(../images/amigo.gif);
+}
+
+p {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #ACC5FF;
+}
