@@ -1,16 +1,10 @@
 body {
-    text-align: center;
     color: #FFF;
     width: 1900px;
     height: 900px;
 }
 
-div#wapper {
-    width: 100%;
-    text-align: left;
-    min-height: 300px;
-    margin: 0 auto;
-}
+
 
 header {
     height: 100px;
@@ -43,9 +37,5 @@ footer {
     background-color: blue;
     position: relatiev;
     clear: both;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+    font-size: 20px;
 }
