@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    color: #FFF;
+    width: 1900px;
+    height: 900px;
+}
+
+div#wapper {
+    width: 100%;
+    text-align: left;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+section,
+aside {
+    float: right;
+    height: 780px;
+}
+
+section {
+    background-color: green;
+    width: 1700px;
+    height: 780px;
+    float: right;
+}
+
+aside {
+    background-color: goldenrod;
+    width: 200px;
+    height: 780px;
+    float: left;
+}
+
+footer {
+    height: 70px;
+    background-color: blue;
+    position: relatiev;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
