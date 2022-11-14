@@ -1,13 +1,13 @@
 body {
     color: #FFF;
-    width: 1900px;
-    height: 900px;
+    width: 1500px;
+    height: 400px;
 }
 
 
 
 header {
-    height: 100px;
+    height: 70px;
     background-color: red;
     text-align: center;
 }
@@ -20,20 +20,20 @@ aside {
 
 section {
     background-color: green;
-    width: 1700px;
+    width: 1350px;
     height: 780px;
     float: right;
 }
 
 aside {
     background-color: goldenrod;
-    width: 200px;
+    width: 150px;
     height: 780px;
     float: left;
 }
 
 footer {
-    height: 70px;
+    height: 90px;
     background-color: blue;
     position: relatiev;
     clear: both;
