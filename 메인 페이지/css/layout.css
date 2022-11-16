@@ -1,0 +1,41 @@
+body {
+    color: #FFF;
+    width: 1500px;
+    height: 400px;
+}
+
+
+
+header {
+    height: 70px;
+    background-color: red;
+    text-align: center;
+}
+
+section,
+aside {
+    float: right;
+    height: 780px;
+}
+
+section {
+    background-color: green;
+    width: 1350px;
+    height: 780px;
+    float: right;
+}
+
+aside {
+    background-color: goldenrod;
+    width: 150px;
+    height: 780px;
+    float: left;
+}
+
+footer {
+    height: 90px;
+    background-color: blue;
+    position: relatiev;
+    clear: both;
+    font-size: 20px;
+}

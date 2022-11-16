@@ -1,0 +1,21 @@
+table,
+th,
+td {
+    border: 1px solid #bcbcbc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 1050px;
+    height: 580px;
+    font-size:45px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.title{
+    text-align: center;
+    font-size: 70px;
+}
