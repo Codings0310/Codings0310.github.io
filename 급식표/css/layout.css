@@ -8,7 +8,7 @@ body {
 
 header {
     height: 70px;
-    background-color: purple;
+    background-color: red;
     text-align: center;
 }
 
@@ -19,18 +19,14 @@ aside {
 }
 
 section {
-    background-color: violet;
+    background-color: green;
     width: 1350px;
     height: 780px;
     float: right;
-    background-image: url(../image/purple-heart_1f49c.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 800px;
 }
 
 aside {
-    background-color: violet;
+    background-color: goldenrod;
     width: 150px;
     height: 780px;
     float: left;
@@ -38,7 +34,7 @@ aside {
 
 footer {
     height: 90px;
-    background-color: purple;
+    background-color: blue;
     position: relatiev;
     clear: both;
     font-size: 20px;
