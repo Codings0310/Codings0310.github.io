@@ -9,12 +9,13 @@ td {
 table {
     width: 1050px;
     height: 580px;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     border-collapse: collapse;
     border: 1px solid black;
 }
 
 .title {
-    font-size: 20px;
+    text-align: center;
+    font-size: 35px;
 }
