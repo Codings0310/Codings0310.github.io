@@ -1,0 +1,17 @@
+aside a {
+    text-decoration: none;
+}
+
+.grade {
+    font-size: 40px;
+}
+
+.line1{
+    border-left: thick solid purple;
+    height: 780px;
+    float: right;
+}
+
+.line2{
+    border: solid 2px purple;
+}
