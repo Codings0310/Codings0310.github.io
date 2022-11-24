@@ -6,7 +6,7 @@ header a{
 }
 
 .logo {
-    background-color: red;
+    background-color: rgb(31, 31, 31);
     position: absolute;
     float: left;
     margin-top: 2px;
