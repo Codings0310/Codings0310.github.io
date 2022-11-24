@@ -28,17 +28,18 @@ section {
     background-position: center;
     background-size: 800px;
 }
-footer {
-    height: 90px;
-    background-color: rgb(130, 226, 255;
-    position: relatiev;
-    clear: both;
-    font-size: 20px;
-}
 
 aside {
     background-color: rgb(130, 226, 255;
     width: 150px;
     height: 780px;
     float: left;
+}
+
+footer {
+    height: 90px;
+    background-color: rgb(130, 226, 255;
+    position: relatiev;
+    clear: both;
+    font-size: 20px;
 }
