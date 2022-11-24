@@ -1,0 +1,19 @@
+aside a {
+    text-decoration: none;
+}
+
+.grade {
+    font-size: 40px;
+}
+
+.line1{
+    border-left: thick solid rgb(20, 20, 218);
+    height: 780px;
+    float: right;
+}
+
+.line2{
+    border: solid 2px rgb(20, 20, 218);
+}
+
+

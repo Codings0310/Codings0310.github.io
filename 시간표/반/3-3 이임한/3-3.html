@@ -1,83 +1,108 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="kr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/메인 페이지/css/layout.css">
+    <link rel="stylesheet" href="/메인 페이지/css/header.css">
+    <link rel="stylesheet" href="/메인 페이지/css/section.css">
+    <link rel="stylesheet" href="/메인 페이지/css/aside.css">
+    <link rel="stylesheet" href="/메인 페이지/css/footer.css">
+    <title>3-3 시간표</title>
 </head>
+
 <body>
-    <table border="3" width="450" height="30">
-    <tr>
-        <th>3학년 3반 11월 7일 ~ 11월12일 시간표</th>
-    </tr>
-    </table>    
-    <table border="4" width="450" height="100">
-    <tr>
-        <th bgcolor=#D8D8D8 class="backslash"><div>교시<br/></div>(시간)</th>
-        <th bgcolor=#D8D8D8>월요일</th>
-        <th bgcolor=#D8D8D8>화요일</th>
-        <th bgcolor=#D8D8D8>수요일</th>
-        <th bgcolor=#D8D8D8>목요일</th>
-        <th bgcolor=#D8D8D8>금요일</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>1교시<br/>(08:40 ~ 09:30)</th>
-        <th bgcolor="yellow">창체<br/>(홍준)</th>
-        <th>탐B<br/>(이규)</th>
-        <th>선B<br/>(인은)</th>
-        <th>영독<br/>(홍준)</th>
-        <th>선A<br/>(김태)</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>2교시<br/>(09:40 ~ 10:30)</th>
-        <th>확통<br/>(김기)</th>
-        <th>사문탐<br/>(윤정)</th>
-        <th bgcolor="yellow">탐C<br/>(최동)</th>
-        <th>사문탐<br/>(윤정)</th>
-        <th bgcolor="yellow">탐C<br/>(박그)</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>3교시<br/>(10:50 ~ 11:40)</th>
-        <th>영독<br/>(홍준)</th>
-        <th>탐A<br/>(이현)</th>
-        <th>확통<br/>(김기)</th>
-        <th>선A<br/>(김태)</th>
-        <th>탐A<br/>(이현)</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>4교시<br/>(11:50 ~ 12:40)</th>
-        <th bgcolor="yellow">화작<br/>(최동)</th>
-        <th>교육<br/>(김태)</th>
-        <th>화작<br/>(인은)</th>
-        <th>화작<br/>(인은)</th>
-        <th>선B<br/>(인은)</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>5교시<br/>(13:30 ~ 14:20)</th>
-        <th>탐D<br/>(오제)</th>
-        <th>선B<br/>(인은)</th>
-        <th>탐B<br/>(이규)</th>
-        <th bgcolor="yellow">창체<br/>(김태)</th>
-        <th>탐D<br/>(오제)</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>6교시<br/>(14:30 ~ 15:20)</th>
-        <th>스생<br/>(성도)</th>
-        <th>영독<br/>(홍준)</th>
-        <th>선A<br/>(김태)</th>
-        <th><br/></th>
-        <th bgcolor="yellow">확통<br/>(전은)</th>
-    </tr>
-    <tr>
-        <th bgcolor=#D8D8D8>7교시<br/>(15:30 ~ 16:20)</th>
-        <th>선B<br/>(인은)</th>
-        <th>선A<br/>(김태)</th>
-        <th><br/></th>
-        <th><br/></th>
-        <th>교육<br/>(김태)</th>
-    </tr>
-</table>
-<a href="/index.html">처음으로 돌아가기</a>
+    <div class="logo">
+        <a href="/메인 페이지/철고 로고.png"><img src="/메인 페이지/철고 로고.png" width="64" height="64"></a>
+    </div>
+    <!--헤더시작-->
+    <div class="header">
+        <header>
+
+            <a href="https://cheorwon.gwe.hs.kr/main.do">
+                철원고-코딩들
+            </a>
+        </header>
+    </div>
+
+    <!--콘텐츠부분-->
+    <div class="section">
+        <section>
+            <div class="title">
+                3-3반
+            </div>
+            <br>
+            <table border="5">
+                <tr>
+                    <th>교시</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+                </tr>
+                <tr>
+                    <th>1(08:40)</th> <th>사문탐<br>(윤정)</br></th> <th>과학사</th> <th>탐구1</th> <th>미창</th> <th>문학</th>
+                </tr>
+                <tr>
+                    <th>2(09:40)</th> <th>운건</th> <th>수학2</th> <th>수학2</th> <th>미창</th> <th>음감비</th>
+                </tr>
+                <tr>
+                    <th>3(10:50)</th> <th>문학</th> <th>영어2</th> <th>문학</th> <th>탐구1</th> <th>영어2</th>
+                </tr>
+                <tr>
+                    <th>4(11:50)</th> <th>과학사</th> <th>운건</th> <th>탐구2</th> <th>문학</th> <th>일어2</th>
+                </tr>
+                <tr>
+                    <th>5(13:30)</th> <th>일어2</th> <th>탐구1</th> <th>영어2</th> <th>창체</th> <th>탐구2</th>
+                </tr>
+                <tr>
+                    <th>6(14:30)</th> <th>수학2</th> <th>탐구2</th> <th>창체</th> <th>창체</th> <th>탐구1</th>
+                </tr>
+                <tr>
+                    <th>7(15:30)</th> <th>탐구2</th> <th>문학</th> <th>X</th> <th>창체</th> <th>수학2</th>
+                </tr>
+            </table>
+        </section>
+    </div>
+    <!--사이드바-->
+    <div class="aside">
+        <aside>
+            <span>
+                <div class="grade">1학년</div>
+                <div class="1grade"></div>
+                <a href="/시간표/반/1-1 양진무/1-1.html">1-1</a>
+                <br><a href="/시간표/반/1-2 황준현/1-2.html">1-2</a>
+                <br><a href="/시간표/반/1-3 구희준/1-3.html">1-3</a>
+                <br><a href="/시간표/반/1-4 김상우/1-4.html">1-4</a>
+
+                <br>
+                <div class="grade">2학년</div>
+                <a href="/시간표/반/2-1 고태준/2-1.html">2-1</a>
+                <br><a href="/시간표/반/2-2 강현주/2-2.html">2-2</a>
+                <br><a href="/시간표/반/2-3 김유찬/2-3.html">2-3</a>
+
+                <br>
+                <div class="grade">3학년</div>
+                <a href="/시간표/반/3-1 박태욱/3-1.html">3-1</a>
+                <br><a href="/시간표/반/3-2 임성우/3-2.html">3-2</a>
+                <br><a href="/시간표/반/3-3 이임한/3-3.html">3-3</a>
+                <br><a href="/시간표/반/3-4 김준휘/3-4.html">3-4</a>
+
+                <br>
+                <div class="grade">선생님</div>
+                <a href="/시간표/선생님/오송이/오송이.html">오송이</a>
+                <br><a href="/시간표/선생님/전은지/전은지.html">전은지</a>
+                <br>
+                <div class="grade">급식</div>
+                <a href="/급식표/lunch.html">점심 메뉴</a>
+            </span>
+        </aside>
+    </div>
+    <!--풋터-->
+    <div class="footer">
+        <footer>
+            <a href="/index.html">처음으로 돌아가기</a>
+            <p>관리자: ㅇㅇㅇ</p>
+        </footer>
+    </div>
 </body>
+
 </html>
