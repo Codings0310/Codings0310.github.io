@@ -23,6 +23,10 @@ section {
     width: 1350px;
     height: 780px;
     float: right;
+    background-image: url(image_손바닥.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
 }
 
 aside {
