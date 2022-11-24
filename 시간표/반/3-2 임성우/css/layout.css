@@ -30,7 +30,7 @@ section {
 }
 
 aside {
-    background-color: rgb(49, 49, 49);
+    background-color: rgba(26, 26, 26, 0.836);
     width: 150px;
     height: 780px;
     float: left;

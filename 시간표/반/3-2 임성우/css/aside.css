@@ -7,13 +7,13 @@ aside a {
 }
 
 .line1{
-    border-left: thick solid rgb(46, 46, 46);
+    border-left: thick solid rgb(0, 0, 0);
     height: 780px;
     float: right;
 }
 
 .line2{
-    border: solid 2px rgb(46, 46, 46);
+    border: solid 2px rgb(0, 0, 0);
 }
 
 
