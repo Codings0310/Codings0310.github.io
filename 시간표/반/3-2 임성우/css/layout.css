@@ -8,7 +8,7 @@ body {
 
 header {
     height: 70px;
-    background-color: purple;
+    background-color: rgb(53, 52, 53);
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ aside {
 }
 
 section {
-    background-color: violet;
+    background-color: rgb(85, 85, 87);
     width: 1350px;
     height: 780px;
     float: right;
@@ -30,7 +30,7 @@ section {
 }
 
 aside {
-    background-color: violet;
+    background-color: rgb(116, 116, 116);
     width: 150px;
     height: 780px;
     float: left;
@@ -38,7 +38,7 @@ aside {
 
 footer {
     height: 90px;
-    background-color: purple;
+    background-color: rgb(78, 77, 78);
     position: relatiev;
     clear: both;
     font-size: 20px;
