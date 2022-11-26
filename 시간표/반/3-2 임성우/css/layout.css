@@ -8,7 +8,7 @@ body {
 
 header {
     height: 70px;
-    background-color: purper;
+    background-color: rgb(53, 52, 53);
     text-align: center;
 }
 
@@ -19,18 +19,18 @@ aside {
 }
 
 section {
-    background-color: violet;
+    background-color: rgb(29, 29, 29);
     width: 1350px;
     height: 780px;
     float: right;
-    background-image: url(../image/purple-heart_1f49c.gif);
+    background-image: url(../image/nasa.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 800px;
 }
 
 aside {
-    background-color: violet;
+    background-color: rgba(26, 26, 26, 0.836);
     width: 150px;
     height: 780px;
     float: left;
@@ -38,7 +38,7 @@ aside {
 
 footer {
     height: 90px;
-    background-color: purple;
+    background-color: rgb(56, 56, 56);
     position: relatiev;
     clear: both;
     font-size: 20px;
