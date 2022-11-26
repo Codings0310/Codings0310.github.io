@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -24,19 +24,32 @@ body{
 .header{
     grid-area: header;
     height: 70px;
-    background-color: red;
-    text-align: center;
+    background-color: #171717;
     text-decoration: none;
     font-size: 50px;
     text-align: center;
 }
+.header a{
+    text-decoration: none;
+    font-family: 'Cute Font', cursive;
+    color: #c4c4c4;
+    positio
+}
 .side{
     grid-area: side;
     height: 780px;
-    background-color: goldenrod;
+    background-color: #333333;
     width: 150px;
     float: left;
-    font-size: 120%;
+    font-size: 160%;
+    font-family: 'Cute Font', cursive;
+    text-align: center;
+}
+.side a{
+    text-decoration: none;
+    color: #9C9C9C;
+    font-family: 'Cute Font', cursive;
+    text-align: left;
 }
 .main{
     grid-area: main;
@@ -49,7 +62,7 @@ body{
     grid-area: footer;
     color: black;
     height: 90px;
-    background-color: blue;
+    background-color: #171717;
     position: relative;
     clear: both;
     font-size: 20px;
@@ -75,7 +88,7 @@ body{
     color: #B2BCFF;
 } */
 .logo {
-    background-color: red;
+    background-color: #171717;
     position: absolute;
     float: left;
     margin-top: 2px;
@@ -86,6 +99,7 @@ nav {
     float: right;
     width: 900px;
     height: 100px;
+    margin: auto;
 }
 
 /* #slideShow {
