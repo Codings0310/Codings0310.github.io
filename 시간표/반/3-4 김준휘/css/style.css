@@ -209,3 +209,50 @@ h1 {
 .blank {
     
 }
+
+h4 {
+    font-family: 'Cute Font', cursive;
+    color: #9c9c9c;
+
+}
+
+input[id*=answer] {
+    display: none;
+
+}
+input[id*="answer"] + label {
+    display: flex;
+    padding: 5px;
+    border:1px solid #232188;
+    border-bottom: 0;
+    color:#fff;
+    font-weight: 500;
+    background: #3635a5;
+    cursor: pointer;
+    position: relative;
+}
+
+input[id*="answer"] + label em {
+    position: absolute;
+    top: 10%;
+    right: 1px;
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    display: inline-block;
+    /* background:url(../images/방향표.jpg) */
+}
+input[id*="answer"] + label + div {
+    max-height: 0;
+    transition: all .35s;
+    overflow: hidden;
+    background:#333333;
+    font-size: 23px;
+}
+input[id*="answer"] + label + div a {
+    display:inline-block;
+    padding: 5px;
+}
+input[id*="answer"]:checked + label + div {
+    max-height: 200px;
+}
