@@ -232,15 +232,18 @@ input[id*="answer"] + label {
     position: relative;
 }
 
-input[id*="answer"] + label em {
+input[id*="answer"] + label i {
     position: absolute;
-    top: 10%;
-    right: 1px;
+    top: 6%;
+    right: 6px;
     width: 30px;
     height: 30px;
     margin-top: 4px;
     display: inline-block;
     /* background:url(../images/방향표.jpg) */
+    transform: rotate(90deg);
+    transition: all .35s;
+    font-size: 20px;
 }
 input[id*="answer"] + label + div {
     max-height: 0;
@@ -256,3 +259,31 @@ input[id*="answer"] + label + div a {
 input[id*="answer"]:checked + label + div {
     max-height: 200px;
 }
+
+input[id*="answer"]:checked + label i {
+    transform: rotate(45deg);
+    transition: all .35s;
+}
+
+input[id*="answer"]:checked:hover + label i {
+    transform: rotate(45deg) scale(1.4);
+    transition: all .35s;
+}
+
+input[id*="answer"]:hover + label i {
+    transform: rotate(90deg) scale(1.4);
+    transition: all .35s;
+}
+
+input[id*="answer"]:hover + label {
+    display: flex;
+    padding: 5px;
+    border:1px solid #3635a5;
+    border-bottom: 0;
+    color:#fff;
+    font-weight: 500;
+    background: #4B4BF0;
+    cursor: pointer;
+    position: relative;
+}
+
