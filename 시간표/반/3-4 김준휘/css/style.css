@@ -32,7 +32,7 @@ body{
 .header a{
     text-decoration: none;
     font-family: 'Cute Font', cursive;
-    color: #c4c4c4;
+    color: #ffffff;
     positio
 }
 .side{
@@ -146,15 +146,60 @@ table {
     border-collapse: separate;
     vertical-align: middle;
     font-size: 200%;
+    position: absolute;
+    left: 290px;
+    top: 110px;
 }
 
 audio {
     width: 418px;
+    position: absolute;
+    top: 700px;
+    left: 470px;
 }
 
 p {
     font-family: 'Nanum Pen Script', cursive;
     color: #ACC5FF;
+    position: absolute;
+    top: 700px;
+    left: 290px;
 }
 
+h1 {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #ACC5FF;
+    position: absolute;
+    top: 700px;
+    left: 1180px;
+    font-size: 50px;
+}
 
+#bt34 {
+    color: #333333;
+    background-color: #9c9c9c;
+    padding: 1px 35px;
+    border-color: #9c9c9c;
+    border: 1px solid;
+    border-radius: 35px;
+    transiiton: all 0.4s;
+}
+
+#bt34:focus {
+    outline: none;
+}
+
+#bt34:hover {
+    background-color: #ACC5FF;
+    color: white;
+    border-color: #ACC5FF;
+}
+
+#horizontal-underline{
+    position:absolute;
+    width:100%;
+    background-color: pink;
+    top:50px;
+    left:30px;
+    height:4px;
+}
