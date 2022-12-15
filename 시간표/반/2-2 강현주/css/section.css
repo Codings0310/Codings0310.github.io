@@ -7,6 +7,8 @@ td {
 }
 
 table {
+    background-image: url(../images/ads.jpg);
+    background-position: center;
     width: 1050px;
     height: 580px;
     font-size: 50px;
