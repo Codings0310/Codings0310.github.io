@@ -1,0 +1,45 @@
+body {
+    color: #FFF;
+    width: 1500px;
+    height: 400px;
+}
+
+
+
+header {
+    height: 70px;
+    background-color: blue;
+    text-align: center;
+}
+
+section,
+aside {
+    float: right;
+    height: 780px;
+}
+
+section {
+    background-color: skyblue;
+    width: 1350px;
+    height: 780px;
+    float: right;
+    background-image: url(../img/Manchester-city-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+}
+
+aside {
+    background-color: midnightblue;
+    width: 150px;
+    height: 780px;
+    float: left;
+}
+
+footer {
+    height: 90px;
+    background-color: skyblue;
+    position: relatiev;
+    clear: both;
+    font-size: 20px;
+}
