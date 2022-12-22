@@ -192,7 +192,7 @@ h1 {
     border-color: #9c9c9c;
     border: 1px solid;
     border-radius: 35px;
-    transiiton: all 0.4s;
+    transition: all 0.4s;
 }
 
 #bt34:focus {
