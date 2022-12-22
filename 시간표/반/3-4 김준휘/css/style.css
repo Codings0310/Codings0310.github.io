@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     color: #FFF;
     width: 1500px;
     height: 400px;
 }
+
 .container {
-    display:grid;
-    grid-template-columns:10% 1fr;
-    grid-template-rows:70px 1fr 100px;
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 70px 1fr 100px;
     height: 100%;
-    grid-gap:0px;
-    grid-template-areas: 
-    "header header"
-    "side main"
-    "footer footer";
+    grid-gap: 0px;
+    grid-template-areas:
+        "header header"
+        "side main"
+        "footer footer";
 }
-.header{
+
+.header {
     grid-area: header;
     height: 70px;
     background-color: #171717;
@@ -29,13 +33,15 @@ body{
     font-size: 50px;
     text-align: center;
 }
-.header a{
+
+.header a {
     text-decoration: none;
     font-family: 'Cute Font', cursive;
     color: #ffffff;
-    positio
+    
 }
-.side{
+
+.side {
     grid-area: side;
     height: 780px;
     background-color: #333333;
@@ -45,20 +51,23 @@ body{
     font-family: 'Cute Font', cursive;
     text-align: center;
 }
-.side a{
+
+.side a {
     text-decoration: none;
     color: #9C9C9C;
     font-family: 'Cute Font', cursive;
     text-align: left;
 }
-.main{
+
+.main {
     grid-area: main;
     background-image: url(../images/amigo.gif);
     width: 1350px;
     height: 780px;
     float: right;
 }
-.footer{
+
+.footer {
     grid-area: footer;
     color: black;
     height: 90px;
@@ -67,15 +76,16 @@ body{
     clear: both;
     font-size: 20px;
 }
-@media all and  (max-width:575px){
-    .container{
-        grid-template-columns:1fr;
-        grid-template-rows:100px 1fr 100px 100px;
-        grid-template-areas: 
-        "header"
-        "main"
-        "side"
-        "footer";
+
+@media all and (max-width:575px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 100px 100px;
+        grid-template-areas:
+            "header"
+            "main"
+            "side"
+            "footer";
     }
 }
 
@@ -195,8 +205,8 @@ h1 {
     border-color: #ACC5FF;
 }
 
-.underline{
-    width:80px;
+.underline {
+    width: 80px;
     height: 2px;
     background-color: white;
     border: 1px solid;
@@ -206,9 +216,7 @@ h1 {
     left: 35px;
 }
 
-.blank {
-    
-}
+.blank {}
 
 h4 {
     font-family: 'Cute Font', cursive;
@@ -220,19 +228,20 @@ input[id*=answer] {
     display: none;
 
 }
-input[id*="answer"] + label {
+
+input[id*="answer"]+label {
     display: flex;
     padding: 5px;
-    border:1px solid #232188;
+    border: 1px solid #232188;
     border-bottom: 0;
-    color:#fff;
+    color: #fff;
     font-weight: 500;
     background: #3635a5;
     cursor: pointer;
     position: relative;
 }
 
-input[id*="answer"] + label i {
+input[id*="answer"]+label i {
     position: absolute;
     top: 6%;
     right: 6px;
@@ -245,45 +254,47 @@ input[id*="answer"] + label i {
     transition: all .35s;
     font-size: 20px;
 }
-input[id*="answer"] + label + div {
+
+input[id*="answer"]+label+div {
     max-height: 0;
     transition: all .35s;
     overflow: hidden;
-    background:#333333;
+    background: #333333;
     font-size: 23px;
 }
-input[id*="answer"] + label + div a {
-    display:inline-block;
+
+input[id*="answer"]+label+div a {
+    display: inline-block;
     padding: 5px;
 }
-input[id*="answer"]:checked + label + div {
+
+input[id*="answer"]:checked+label+div {
     max-height: 200px;
 }
 
-input[id*="answer"]:checked + label i {
+input[id*="answer"]:checked+label i {
     transform: rotate(45deg);
     transition: all .35s;
 }
 
-input[id*="answer"]:checked:hover + label i {
+input[id*="answer"]:checked:hover+label i {
     transform: rotate(45deg) scale(1.4);
     transition: all .35s;
 }
 
-input[id*="answer"]:hover + label i {
+input[id*="answer"]:hover+label i {
     transform: rotate(90deg) scale(1.4);
     transition: all .35s;
 }
 
-input[id*="answer"]:hover + label {
+input[id*="answer"]:hover+label {
     display: flex;
     padding: 5px;
-    border:1px solid #3635a5;
+    border: 1px solid #3635a5;
     border-bottom: 0;
-    color:#fff;
+    color: #fff;
     font-weight: 500;
     background: #4B4BF0;
     cursor: pointer;
     position: relative;
 }
-

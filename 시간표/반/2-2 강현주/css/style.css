@@ -1,0 +1,15 @@
+table {
+    font-family: 'Nanum Pen Script', cursive;
+    width: 1050px;
+    height: 580px;
+    background-image: url(../images/ads.jpg);
+    background-position: center;
+    text-align: center;
+    border-color: #54A0E2;
+    border-collapse: separate;
+    vertical-align: middle;
+    font-size: 200%;
+    position: absolute;
+    left: 290px;
+    top: 110px;
+}
